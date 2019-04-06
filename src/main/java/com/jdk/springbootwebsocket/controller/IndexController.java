@@ -3,6 +3,9 @@ package com.jdk.springbootwebsocket.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * @author ZY
+ */
 @Controller
 public class IndexController {
 
