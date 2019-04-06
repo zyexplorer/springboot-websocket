@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script type="text/javascript" src="https://cdn.goeasy.io/goeasy.js"></script>
+    <script>
+        var goeasy = new GoEasy({
+            appkey: 'BS-129088b9da1742bfbb93897f366d7fe8',
+
+        });
+
+        goeasy.subscribe({
+            channel: 'my_channel',
+            onMessage: function (result) {
+                alert("You hava a new message: " + result.content);
+            }
+        });
+
+    </script>
+</head>
+<body>
+    GoEasy 测试!!!
+</body>
+</html>
